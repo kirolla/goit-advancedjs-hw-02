@@ -1,0 +1,2 @@
+import{s as m,e as i}from"./assets/izi-toast-Dql4GTvY.js";/* empty css                      */import"./assets/vendor-BbbuE1sJ.js";const s=document.querySelector(".form");s.addEventListener("submit",e=>{e.preventDefault();const r=Number(s.elements.delay.value),o=s.elements.state.value;n(r,o).then(t=>{m(`✅ Fulfilled promise in ${t}ms`)}).catch(t=>{i(`❌ Rejected promise in ${t}ms`)}),s.reset()});function n(e,r){return new Promise((o,t)=>{setTimeout(()=>{r==="fulfilled"?o(e):t(e)},e)})}
+//# sourceMappingURL=2-snackbar.js.map
